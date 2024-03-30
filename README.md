@@ -11,10 +11,7 @@ A starting point for wezterm terminal:
 
 ### Install Wezterm Terminal
 
-Kickstart.wezterm targets *only* the latest
-
-['stable'](https://wezfurlong.org/wezterm/installation.html)
-
+Kickstart.wezterm targets *only* the latest ['stable'](https://wezfurlong.org/wezterm/installation.html) Wezterm,
 If you are experiencing issues, please make sure you have the latest versions.
 
 ### Install Kickstart
