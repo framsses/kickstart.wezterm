@@ -13,7 +13,7 @@ A starting point for wezterm terminal:
 
 Kickstart.wezterm targets *only* the latest
 
-['stable']('https://wezfurlong.org/wezterm/installation.html')
+['stable'](https://wezfurlong.org/wezterm/installation.html)
 
 If you are experiencing issues, please make sure you have the latest versions.
 
