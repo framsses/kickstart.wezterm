@@ -35,7 +35,7 @@ to your machine using one of the commands below, depending on your OS.
 <details><summary> Linux and Mac </summary>
 
 ```sh
-git clone git@github.com:framsses/kickstart.wezterm.git "${XDG_CONFIG_HOME:-$HOME/.config}".wezterm
+git clone git@github.com:framsses/kickstart.wezterm.git "${XDG_CONFIG_HOME:-$HOME/.config}"/wezterm
 ```
 
 </details>
@@ -45,13 +45,13 @@ git clone git@github.com:framsses/kickstart.wezterm.git "${XDG_CONFIG_HOME:-$HOM
 If you're using `cmd.exe`:
 
 ```
-git clone git@github.com:framsses/kickstart.wezterm.git %userprofile%\AppData\Local.wezterm\ 
+git clone git@github.com:framsses/kickstart.wezterm.git %userprofile%\AppData\Local\wezterm\ 
 ```
 
 If you're using `powershell.exe`
 
 ```
-git clone git@github.com:framsses/kickstart.wezterm.git $env:USERPROFILE\AppData\Local.wezterm\ 
+git clone git@github.com:framsses/kickstart.wezterm.git $env:USERPROFILE\AppData\Local\wezterm\ 
 ```
 
 </details>
@@ -59,10 +59,11 @@ git clone git@github.com:framsses/kickstart.wezterm.git $env:USERPROFILE\AppData
 ### Post Installation
 
 Open Wezterm Terminal.
-Create a .wezterm.lua file in your home directory and open it.
+Create a .wezterm.lua file in your home directory and open it with your IDE of choice.
 
 ```sh
 touch ~/.wezterm.lua
+nvim ~/.wezterm.lua
 ```
 
 add the kickstart module to your config file
